@@ -30,8 +30,12 @@
   height: 105px;
 }
 
-.address {
+.header__address {
   margin-left: 184px;
+}
+
+.address {
+  
   font-size: 18px;
   font-style: normal;
   line-height: 135%;
@@ -253,4 +257,47 @@
 
 .about__text:not(:last-child) {
   margin-bottom: 24px;
+}
+
+/* end about */
+
+/* start footer */
+
+.footer {
+  display: flex;
+  margin-top: 180px;
+  padding: 0 50px 88px;
+  justify-content: space-between;
+  align-items: start;
+}
+
+
+.footer__menu-list {
+  list-style: none;
+  text-align: center;
+}
+
+.footer__menu-link {
+  font-size: 18px;
+  text-align: center;
+}
+
+.footer__menu-link_active {
+  text-decoration: none;
+}
+
+.footer__social-list {
+  list-style: none;
+  display: flex;
+  gap: 48px;
+}
+
+.footer__social-link {
+  max-width: 48px;
+  max-height: 48px;
+  display: block;
+}
+
+.footer__social-iton {
+  height: 100%;
 }
